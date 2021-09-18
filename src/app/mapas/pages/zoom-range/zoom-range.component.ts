@@ -40,7 +40,6 @@ export class ZoomRangeComponent implements AfterViewInit, OnDestroy {
     this.mapa.off('zoom', () => {});
     this.mapa.off('zoomend', () => {});
     this.mapa.off('move', () => {});
-
   }
 
   ngAfterViewInit(): void {
